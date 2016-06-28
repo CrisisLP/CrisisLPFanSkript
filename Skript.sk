@@ -1,0 +1,12 @@
+options:
+  ver: 1.1
+  autoupdate: true
+
+command /help:
+  trigger:
+    open chest with 1 rows named "&cHelp | &bCommands"
+    set slot 0 of player's inventory iron_ingot named "Money"
+
+on inventory open:
+  if player's inventory named is "&cHelp | &bCommands":
+    cancel event
