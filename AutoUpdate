@@ -1,6 +1,0 @@
-options:
-  ver: 1.0b
-
-command /hello:
-  trigger:
-    broadcast "%player%, hello!"
